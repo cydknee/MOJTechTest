@@ -1,0 +1,46 @@
+.App {
+  text-align: left;
+}
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(8px + 2vmin);
+  color: white;
+  padding: 1em;
+}
+
+td, th {
+  padding: 0.25em;
+}
+
+button {
+    font-size: calc(8px + 2vmin);
+    border-radius: 8px;
+}
+
+input {
+    font-size: calc(8px + 2vmin);
+    border-radius: 8px;
+    margin-left: 1em;
+}
+
+.delete {
+  background-color:lightpink;
+}
+
+.add {
+  background-color:aquamarine;
+}
+
+.update {
+  background-color: lightsalmon;
+}
+
+.App-link {
+  color: #61dafb;
+}
